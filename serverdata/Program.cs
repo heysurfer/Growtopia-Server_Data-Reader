@@ -17,7 +17,6 @@ namespace Proxy
         {
 
 
-            Console.WriteLine("Title: {0}", Console.Title);
             Console.Title = "Server Data Reader";
             string a;
             WebClient web = new WebClient();
