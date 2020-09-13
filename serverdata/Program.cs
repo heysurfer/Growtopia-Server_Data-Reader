@@ -15,6 +15,10 @@ namespace Proxy
         [STAThread]
         static void Main()
         {
+
+
+            Console.WriteLine("Title: {0}", Console.Title);
+            Console.Title = "Server Data Reader";
             string a;
             WebClient web = new WebClient();
             System.IO.Stream stream = web.OpenRead("http://growtopia2.com/growtopia/server_data.php");
