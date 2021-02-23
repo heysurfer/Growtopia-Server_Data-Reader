@@ -42,7 +42,7 @@ namespace Proxy
             string[] bosluk;
             bosluk = ayir.Split();
             ip = bosluk[0];
-            port = bosluk[2];
+            port = bosluk[1];
             Console.WriteLine("Ip : " + ip);
             Console.WriteLine("Port : " + port);
             Console.WriteLine("Server Data Reader By HeySurfer");
